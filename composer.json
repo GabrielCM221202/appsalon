@@ -1,0 +1,23 @@
+{
+    "name": "omar/appsalon",
+    "description": "AppSalon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Model\\":"./models",
+            "Controllers\\":"./controllers",
+            "Classes\\":"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Caballero",
+            "email": "gabo22.zuky@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
